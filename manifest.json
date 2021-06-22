@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+	"name": "Getty Downloader",
+	"version": "1.0",
+	"description": "Right click on a Getty Image to download it",
+	"icons": {
+		"128": "icon128.png",
+		"48": "icon48.png",
+		"16": "icon16.png"
+	},
+
+	"page_action": {
+		"default_icon": "icon16.png",
+		"default_title": "Getty Downloader"
+	},
+
+	"background": {
+		"page": "bg.html",
+		"persistent": false
+	},
+	"permissions": [
+		"tabs",
+		"contextMenus",
+		"https://www.gettyimages.co.uk/*"
+	]
+}
