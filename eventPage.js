@@ -21,7 +21,7 @@ chrome.contextMenus.onClicked.addListener(function(clickData){
 	var sources = {
 		img1: url1,
 		img2: url2
-    };
+    	};
 	var images = {};
 	var loadedImages = 0;
 	var numImages = 0;
